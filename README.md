@@ -25,3 +25,26 @@ curious about your heart rate zone, and are too cheap (I mean cost-conscious)
 to pay the monthly subscription fee to MapMyRide for the heart rate zone
 chart, you can use this free tool instead.  Enjoy!
 
+
+
+## Quick Start
+
+
+#### Installation
+Git clone the repo and then run this command: (use of a virtualenv is highly encouraged).
+
+```
+pip install .
+```
+
+#### Get your TCX Files
+
+Go to MapMyRide, garmin, etc. and download the TCX files you want to analyse.
+Save them all in a directory on your harddrive.  GhettoTCX can open all the
+TCX files in a given directory for you.
+
+#### Checkout the example ipython notebook
+
+Look at ``tcx-example.ipynb`` for how to use the tool.
+
+
