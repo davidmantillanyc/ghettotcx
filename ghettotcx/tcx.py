@@ -125,6 +125,7 @@ class HeartRate(TCX):
         elif x['heartrate'] > 165: return 5
         else:  return 0
 
+    # TODO: Move to test file; this was old code
     def test_zoneify(self):
         """some unit tests because TDD is important ;) """
         tests = [({'heartrate': 0}, 1),
